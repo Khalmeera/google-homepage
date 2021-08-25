@@ -80,7 +80,7 @@ header {
 
 .country {
     display: flex;
-    bottom: 5%;
+    bottom: 3.5%;
     position: absolute;
     width: 96%;
     right: 8px;
