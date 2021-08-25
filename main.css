@@ -4,13 +4,13 @@ header {
     justify-content: end;
     align-items: center;
 }
-.text {
+.textHeader {
     margin: 0.5%;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 13px;
     color: rgba(0,0,0,0.87);
 }
-.image {
+.imageHeader {
     margin: 1%;
     color: rgba(0,0,0,0.87);
 }
