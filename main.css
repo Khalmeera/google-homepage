@@ -78,3 +78,49 @@ header {
     border-color: rgba(223,225,229,0);
 }
 
+.country {
+    display: flex;
+    bottom: 5%;
+    position: absolute;
+    width: 96%;
+    right: 8px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-wrap: wrap;
+    border-bottom: 5px solid #dadce0;
+    padding: 0 20px;
+    background-color: #f2f2f2;
+    color: rgba(0, 0, 0, .54);
+    flex-shrink: 0;
+}
+
+footer {
+    display: flex;
+    bottom: 0;
+    position: absolute;
+    width: 96%;
+    right: 8px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-wrap: wrap;
+    padding: 0 20px;
+    background-color: #f2f2f2;
+    color: rgba(0, 0, 0, .54);
+    flex-shrink: 0;
+}
+.first {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: auto;
+    gap: 17px;
+}
+.second {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: auto;
+    margin-left: auto;
+    gap: 17px;
+}
+
